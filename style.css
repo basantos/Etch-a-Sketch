@@ -1,3 +1,7 @@
+body {
+	line-height: 1; /* keeps all pixels connected */
+}
+
 .center-elements {
   text-align: center;
   width: 402px;
@@ -44,8 +48,6 @@ button:active, input:active {
 .pixel {
   display: inline-block;
   vertical-align: top;
-  width: 25px;
-  height: 25px;
   border: thin black solid;
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
